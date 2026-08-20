@@ -83,7 +83,9 @@ namespace August19
 
         private void button1_Click(object sender, EventArgs e)
         {
-            runBFS(new Node(0, 0), new Node(4, 4));
+             runBFS(new Node(0, 0), new Node(4, 4));
+            // later changed into
+            //runBFS(new Node(0, 3), new Node(4, 4));
         }
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
